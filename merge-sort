@@ -1,0 +1,15 @@
+[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+Big-O gösterimini yazınız.
+
+Adım: [16, 21, 11, 8, 12, 22] -> [16, 21], [11, 8, 12, 22]
+Adım: [16, 21] -> [16], [21] (zaten sıralı)
+Adım: [11, 8, 12, 22] -> [11, 8], [12, 22]
+Adım: [16] -> [16] (zaten sıralı)
+Adım: [21] -> [21] (zaten sıralı)
+Adım: [11, 8] -> [8, 11]
+Adım: [12, 22] -> [12, 22] (zaten sıralı)
+Adım: [8, 11], [12, 22] -> [8, 11, 12, 22]
+Adım: [8, 11, 12, 22], [16, 21] -> [8, 11, 12, 16, 21, 22]
+Bu dizinin merge sort ile sıralanma işleminin Big-O değeri O(n log n)'dir.
